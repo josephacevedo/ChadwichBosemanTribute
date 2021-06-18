@@ -1,0 +1,49 @@
+/* figure out how to remove top margin */
+.container {
+  font-family: sans-serif;
+}
+.main {
+  height: 97vh;
+  display: flex;
+  justify-content: space-around;
+}
+
+.main__img {
+  width: 50%px;
+}
+
+.main__header {
+  font-size: 1.5rem;
+  text-align: center;
+  margin: auto 0;
+}
+
+.bio__container {
+  display: flex;
+  justify-content: center;
+  margin-top: 10%;
+  height: 100vh;
+}
+
+.bio {
+  width: 70%;
+  font-size: 1.5rem;
+  margin: auto 0;
+  line-height: 2;
+}
+
+.movies__container {
+  /* height: 100vh; */
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  grid-template-rows: repeat(3, auto);
+  row-gap: 5%;
+ 
+  margin-top: 10%;
+}
+
+.movie {
+  width: 75%;
+  /* margin: auto;
+   */
+}
